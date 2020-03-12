@@ -1,7 +1,7 @@
 import React from 'react';
 import Item from './Item'
 
-export default function List({items}) {
+function List({items}) {
   return (
     <div>
       {
@@ -12,3 +12,5 @@ export default function List({items}) {
     </div> 
   )
 }
+
+export default List;
